@@ -413,7 +413,7 @@ function initApp() {
         <div class="border-bottom pb-2 mb-2">
           <span class="fw-bold" style="color:#38bdf8;">${r.rating} ★</span>
           <span class="ms-2">${r.text}</span>
-          <div class="text-muted small">${r.data}</div>
+          <div class="">${r.data}</div>
         </div>
       `
         )
