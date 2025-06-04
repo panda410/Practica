@@ -1,0 +1,97 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+button[type="submit"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+button img {
+  transition: transform 0.2s ease;
+}
+
+button:hover img {
+  transform: scale(1.1);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #a78bfa;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #6b46c1;
+  margin: 0 10px;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 1rem;
+  top: 70%;
+  transform: translateY(-50%);
+  color: #a0aec0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#togglePassword:hover {
+  color: #ffffff;
+}
+
+#toggleNewPassword,
+#toggleConfirmPassword {
+  position: absolute;
+  right: 1rem;
+  top: 70%;
+  transform: translateY(-50%);
+  color: #a0aec0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#toggleNewPassword:hover,
+#toggleConfirmPassword:hover {
+  color: #ffffff;
+}
+
+a.bg-white {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a.bg-white:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+a.bg-white img {
+  transition: filter 0.3s ease;
+}
+
+a.bg-white:hover img {
+  filter: brightness(1.2);
+}
+
+@keyframes fadeInSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.signup-container {
+  animation: fadeInSlideDown 0.8s ease-out;
+}

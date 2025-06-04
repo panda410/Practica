@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "nume": "Căști Audio Sony WH-1000XM4",
+    "categorie": "Căști",
+    "pret": 1299.99,
+    "stoc": 12,
+    "imagine": "https://cdn-ultra.esempla.com/storage/webp/70283180-8ac7-4dd6-8e21-3febb06bcf4f.webp",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 30h, sunet premium.",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "nume": "Boxe 2.1 Serioux HT2100C",
+    "categorie": "Boxe",
+    "pret": 249.99,
+    "stoc": 20,
+    "imagine": "https://www.serioux.ro/wp-content/uploads/2017/08/Boxe-2.1-SoundBoost-HT2100C-1.png.webp",
+    "descriere": "Boxe multimedia cu bass puternic, 16W RMS, design modern.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "nume": "Televizor VOLTUS VT-43FS5000",
+    "categorie": "Televizoare",
+    "pret": 1399.99,
+    "stoc": 7,
+    "imagine": "https://6772616e64.ultracdn.net/image/cache/catalog/products/ultra-products/ee525756-4e6d-11ea-b816-00155d1de702/2d87d038-eb49-4d5b-8c05-d6b8678dbd12-700x700.png",
+    "descriere": "Televizor LED Full HD, 43 inch, HDMI, USB, design slim.",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "nume": "Televizor VOLTUS VT-43FS5000",
+    "categorie": "Televizoare",
+    "pret": 1399.99,
+    "stoc": 7,
+    "imagine": "https://muncitorul.md/public/products/71/287dd35f-2231-4085-a0a6-4d45e9d598a2.png",
+    "descriere": "Televizor LED Full HD, 43 inch, HDMI, USB, design slim.",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "nume": "Soundbar Samsung HW-T450",
+    "categorie": "Boxe",
+    "pret": 799.99,
+    "stoc": 10,
+    "imagine": "https://images.samsung.com/is/image/samsung/levant-soundbar-hw-t450-hw-t450-zn-setrperspectiveblack-229947941?$684_547_PNG$",
+    "descriere": "Soundbar 2.1, 200W, subwoofer wireless, Bluetooth.",
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "nume": "Căști Bluetooth JBL Tune 510BT",
+    "categorie": "Căști",
+    "pret": 249.99,
+    "stoc": 18,
+    "imagine": "https://admin.ecom.md/media/media/JBL_TUNE_510BT_Product_Image_Her_7yVs7Nr.webp",
+    "descriere": "Căști wireless on-ear, autonomie 40h, Fast Pair.",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "nume": "Boxă portabilă Sony SRS-XB13",
+    "categorie": "Boxe",
+    "pret": 199.99,
+    "stoc": 22,
+    "imagine": "https://cdn-ultra.esempla.com/storage/webp/6930883a-db74-4900-9e29-597ac43c3d05.webp",
+    "descriere": "Boxă Bluetooth, Extra Bass, rezistentă la apă, autonomie 16h.",
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "nume": "Televizor LG 43UP75003LF",
+    "categorie": "Televizoare",
+    "pret": 1799.99,
+    "stoc": 9,
+    "imagine": "https://img-prd-pim.poorvika.com/product/LG-4k-ultra-hd-smart-qned-ai-tv-qned82t-65-inch-Front-Side-View.png",
+    "descriere": "Televizor LED 43'', 4K Ultra HD, Smart TV, HDR.",
+    "rating": 4.7
+  },
+  {
+    "id": 9,
+    "nume": "Căști Audio-Technica ATH-M50x",
+    "categorie": "Căști",
+    "pret": 699.99,
+    "stoc": 11,
+    "imagine": "https://www.audio-technica.com/media/catalog/product/a/t/ath-m50x_lab_01.png",
+    "descriere": "Căști profesionale monitorizare studio, cablu detașabil.",
+    "rating": 4.9
+  },
+  {
+    "id": 10,
+    "nume": "Boxe Edifier R1280DB",
+    "categorie": "Boxe",
+    "pret": 499.99,
+    "stoc": 13,
+    "imagine": "https://edifier-online.com/cdn/shop/files/edifier-grille-r1280db-wood-detail_8cfae5ea-a62e-433f-b2f7-25610b3040e9.png?v=1717571437",
+    "descriere": "Boxe active 2.0, Bluetooth, telecomandă, 42W RMS.",
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "nume": "Microfon RODE NT-USB Mini",
+    "categorie": "Microfoane",
+    "pret": 499.99,
+    "stoc": 8,
+    "imagine": "https://edge.rode.com//images/products/96/rode-nt-usb-mini-magnet-function-march-2021-250-260-rgb.png",
+    "descriere": "Microfon USB, ideal pentru podcast, streaming și gaming.",
+    "rating": 4.7
+  },
+  {
+    "id": 12,
+    "nume": "Căști Sennheiser HD 350BT",
+    "categorie": "Căști",
+    "pret": 399.99,
+    "stoc": 16,
+    "imagine": "https://www.stockmustgo.co.uk/cdn/shop/products/DSC07371-removebg-preview_492f9e7e-f26d-4b77-99b8-a75660106791.png?v=1693579454&width=600",
+    "descriere": "Căști wireless, Bluetooth 5.0, autonomie 30h, pliabile.",
+    "rating": 4.6
+  },
+  {
+    "id": 13,
+    "nume": "Boxă portabilă Marshall Emberton",
+    "categorie": "Boxe",
+    "pret": 699.99,
+    "stoc": 7,
+    "imagine": "https://cdn-ultra.esempla.com/storage/webp/24ec549d-e3b3-412b-978c-4d54a16e3cb8.webp",
+    "descriere": "Boxă Bluetooth, sunet puternic, autonomie 20h, rezistentă la apă.",
+    "rating": 4.9
+  },
+  {
+    "id": 14,
+    "nume": "Televizor Samsung QLED 50Q60A",
+    "categorie": "Televizoare",
+    "pret": 2999.99,
+    "stoc": 5,
+    "imagine": "https://images.samsung.com/is/image/samsung/p6pim/latin_en/qn50q60aapxpa/gallery/latin-en-qled-q60a-qn50q60aapxpa-541674790?$684_547_PNG$",
+    "descriere": "Televizor QLED 50'', 4K Ultra HD, Smart TV, HDR10+.",
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "nume": "Căști wireless Sony WF-1000XM4",
+    "categorie": "Căști",
+    "pret": 1199.99,
+    "stoc": 10,
+    "imagine": "https://sony.scene7.com/is/image/sonyglobalsolutions/2-wf1000xm4-mobile?$productIntroPlatemobile$&fmt=png-alpha",
+    "descriere": "Căști true wireless cu noise cancelling, autonomie 24h.",
+    "rating": 4.9
+  },
+  {
+    "id": 16,
+    "nume": "Boxă portabilă JBL Flip 6",
+    "categorie": "Boxe",
+    "pret": 599.99,
+    "stoc": 15,
+    "imagine": "https://xstore.md/images/product/2023/06/xstore.md-Box%C4%83-portabil%C4%83-JBL-Flip-6-Red-(3).png",
+    "descriere": "Boxă Bluetooth portabilă, rezistentă la apă, autonomie 12h.",
+    "rating": 4.8
+  },
+  {
+    "id": 17,
+    "nume": "Televizor Sony Bravia XR-55A80J",
+    "categorie": "Televizoare",
+    "pret": 5999.99,
+    "stoc": 3,
+    "imagine": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/112/988/494/551/218/6/100028507879b0.png",
+    "descriere": "Televizor OLED 55'', 4K Ultra HD, Smart TV, Dolby Vision.",
+    "rating": 4.9
+  },
+  {
+    "id": 18,
+    "nume": "Căști Bose QuietComfort 45",
+    "categorie": "Căști",
+    "pret": 1499.99,
+    "stoc": 8,
+    "imagine": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc45/product_silo_images/QC45_PDP_Ecom-Gallery-W02.png/jcr:content/renditions/cq5dam.web.1920.1920.png",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 24h, sunet premium.",
+    "rating": 4.8
+  },
+  {
+    "id": 19,
+    "nume": "Boxe Logitech Z906",
+    "categorie": "Boxe",
+    "pret": 1599.99,
+    "stoc": 5,
+    "imagine": "https://xstore.md/images/product/2023/05/xstore.md-Boxe-LOGITECH-Z906-(4).png",
+    "descriere": "Sistem audio 5.1, 500W, certificare THX, telecomandă inclusă.",
+    "rating": 4.7
+  },
+  {
+    "id": 20,
+    "nume": "Televizor Philips 65OLED706",
+    "categorie": "Televizoare",
+    "pret": 7999.99,
+    "stoc": 2,
+    "imagine": "https://images.philips.com/is/image/philipsconsumer/f2f08d7601e1410ea7e0afbe00ec5bd7?$pnglarge$&wid=1250",
+    "descriere": "Televizor OLED 65'', 4K Ultra HD, Ambilight, Smart TV.",
+    "rating": 4.9
+  },
+  {
+    "id": 21,
+    "nume": "Căști wireless Beats Studio Buds",
+    "categorie": "Căști",
+    "pret": 899.99,
+    "stoc": 12,
+    "imagine": "https://lcdn.mediagalaxy.ro/pim/COMUNICATII/BEATS/BEATS%20STUDIO%20PRO/Beats-Studio-Pro-14.png",
+    "descriere": "Căști true wireless, noise cancelling, autonomie 24h.",
+    "rating": 4.7
+  },
+  {
+    "id": 22,
+    "nume": "Boxă portabilă Ultimate Ears BOOM 3",
+    "categorie": "Boxe",
+    "pret": 799.99,
+    "stoc": 10,
+    "imagine": "https://cdn.omd.md/eshop-assets/product_catalog/2596/14fc7cdced5748a3bdf904129ebc9a2c.wl.png.webp",
+    "descriere": "Boxă Bluetooth portabilă, rezistentă la apă, autonomie 15h.",
+    "rating": 4.8
+  },
+  {
+    "id": 23,
+    "nume": "Televizor Samsung Neo QLED 55QN85A",
+    "categorie": "Televizoare",
+    "pret": 6499.99,
+    "stoc": 4,
+    "imagine": "https://images.samsung.com/is/image/samsung/p6pim/ch/qe55qn85aatxxn/gallery/ch-neo-qled-qn85a-qe55qn85aatxxn-392909224?$684_547_PNG$",
+    "descriere": "Televizor Neo QLED 55'', 4K Ultra HD, Smart TV, HDR10+.",
+    "rating": 4.9
+  },
+  {
+    "id": 24,
+    "nume": "Căști gaming HyperX Cloud II",
+    "categorie": "Căști",
+    "pret": 499.99,
+    "stoc": 15,
+    "imagine": "https://xstore.md/images/product/2021/05/%D0%9D%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8-Gaming-HyperX-Cloud-II,-Metal.png",
+    "descriere": "Căști gaming cu sunet surround 7.1, microfon detașabil.",
+    "rating": 4.8
+  },
+  {
+    "id": 25,
+    "nume": "Boxe Creative Pebble V3",
+    "categorie": "Boxe",
+    "pret": 299.99,
+    "stoc": 20,
+    "imagine": "https://d287ku8w5owj51.cloudfront.net/images/products/large/pdt_24195.png?width=400&height=400",
+    "descriere": "Boxe 2.0, USB-C, Bluetooth 5.0, sunet clar și puternic.",
+    "rating": 4.6
+  },
+  {
+    "id": 26,
+    "nume": "Televizor Panasonic TX-50HX580E",
+    "categorie": "Televizoare",
+    "pret": 2999.99,
+    "stoc": 6,
+    "imagine": "https://sk.panasonic.com/wp-content/uploads/2023/07/ast-1915275.png",
+    "descriere": "Televizor LED 50'', 4K Ultra HD, Smart TV, HDR10.",
+    "rating": 4.7
+  },
+  {
+    "id": 27,
+    "nume": "Căști wireless Anker Soundcore Life Q30",
+    "categorie": "Căști",
+    "pret": 349.99,
+    "stoc": 18,
+    "imagine": "https://www.smart.md/image/cache/data/results-photos/emag0501/Casti-Wireless-Over-Ear-Anker-Soundcore-Life-Q30-Hybrid-Active-Noise-Cancelling-Deep-Bass-MultiPoint-352x352.png",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 40h.",
+    "rating": 4.6
+  },
+  {
+    "id": 28,
+    "nume": "Boxă portabilă Bose SoundLink Revolve+ II",
+    "categorie": "Boxe",
+    "pret": 1299.99,
+    "stoc": 8,
+    "imagine": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/speakers/soundlink_revolve_plus_ii/product_silo_images/soundlink_revolve_plus_lux_gray_EC_hero.PNG/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+    "descriere": "Boxă Bluetooth portabilă, sunet 360°, autonomie 17h.",
+    "rating": 4.9
+  },
+  {
+    "id": 29,
+    "nume": "Televizor Hisense 43A6BG",
+    "categorie": "Televizoare",
+    "pret": 1999.99,
+    "stoc": 12,
+    "imagine": "https://neocomputer.md/image/cache/catalog/products/ui-products/ee525756-4e6d-11ea-b816-00155d1de702/febcf576-da51-43f7-a47b-d5d14dd61e0f-600x600.png",
+    "descriere": "Televizor LED 43'', 4K Ultra HD, Smart TV, Dolby Vision.",
+    "rating": 4.5
+  },
+  {
+    "id": 30,
+    "nume": "Căști wireless Samsung Galaxy Buds2 Pro",
+    "categorie": "Căști",
+    "pret": 999.99,
+    "stoc": 10,
+    "imagine": "https://media.flixcar.com/webp/synd-asset/Samsung-109565448-ro-galaxy-buds2-pro-r510-sm-r510nlvaeue-533193777--Download-Source--zoom.png",
+    "descriere": "Căști true wireless, sunet Hi-Fi, autonomie 18h.",
+    "rating": 4.8
+  },
+  {
+    "id": 31,
+    "nume": "Căști wireless Jabra Elite 85h",
+    "categorie": "Căști",
+    "pret": 1299.99,
+    "stoc": 9,
+    "imagine": "https://www.jabra.com/-/media/Images/Products/Jabra-Elite-85h/Product/elite_85h_navy_01.png",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 36h, rezistente la apă.",
+    "rating": 4.7
+  },
+  {
+    "id": 32,
+    "nume": "Boxă portabilă Sony SRS-XG500",
+    "categorie": "Boxe",
+    "pret": 1799.99,
+    "stoc": 7,
+    "imagine": "https://www.sony.ro/image/53f7eaf95b4fc46287c4e224a58039d1?fmt=png-alpha&wid=900&hei=800",
+    "descriere": "Boxă Bluetooth portabilă, Extra Bass, autonomie 30h, rezistentă la apă.",
+    "rating": 4.8
+  },
+  {
+    "id": 33,
+    "nume": "Televizor TCL 55C725",
+    "categorie": "Televizoare",
+    "pret": 2499.99,
+    "stoc": 5,
+    "imagine": "https://appliancesdeals.com.au/cdn/shop/products/55C725_front.png?v=1706663383&width=600",
+    "descriere": "Televizor QLED 55'', 4K Ultra HD, Smart TV, Dolby Vision.",
+    "rating": 4.6
+  },
+  {
+    "id": 34,
+    "nume": "Căști gaming Razer BlackShark V2",
+    "categorie": "Căști",
+    "pret": 499.99,
+    "stoc": 14,
+    "imagine": "https://dl.razerzone.com/src/3811-1-en-v1.png",
+    "descriere": "Căști gaming cu sunet surround 7.1, microfon detașabil.",
+    "rating": 4.7
+  },
+  {
+    "id": 35,
+    "nume": "Boxe Logitech Z207",
+    "categorie": "Boxe",
+    "pret": 349.99,
+    "stoc": 18,
+    "imagine": "https://www.logitech.com/content/dam/logitech/en/products/speakers/z207/gallery/z207-black-gallery-1.png",
+    "descriere": "Boxe stereo 2.0, Bluetooth, sunet clar și compact.",
+    "rating": 4.5
+  },
+  {
+    "id": 36,
+    "nume": "Televizor Philips 50PUS8506",
+    "categorie": "Televizoare",
+    "pret": 3299.99,
+    "stoc": 6,
+    "imagine": "https://www.prompt.lv/2038430-large_default/philips-50pus8506-50quot-diagonal-class-performance-8500-series-led-backlit-lcd-tv-smart-tv-android-tv-4k-uhd-2160p-3840-x-2160-hdr-light-silver-50pus8506-12.jpg",
+    "descriere": "Televizor LED 50'', 4K Ultra HD, Ambilight, Smart TV.",
+    "rating": 4.8
+  },
+  {
+    "id": 37,
+    "nume": "Căști wireless Sennheiser Momentum 4",
+    "categorie": "Căști",
+    "pret": 1999.99,
+    "stoc": 4,
+    "imagine": "https://neocomputer.md/image/cache/catalog/products/ui-products/6386c044-4d7e-11ea-b816-00155d1de702/d4dcf73d-2e3c-443c-819d-66bfa8ddc65e-800x800.png",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 60h, sunet premium.",
+    "rating": 4.9
+  },
+  {
+    "id": 38,
+    "nume": "Boxă portabilă JBL Charge 5",
+    "categorie": "Boxe",
+    "pret": 899.99,
+    "stoc": 12,
+    "imagine": "https://xstore.md/images/product/2023/06/xstore.md-Box%C4%83-portabil%C4%83-JBL-Charge-5-Blue-(2).png",
+    "descriere": "Boxă Bluetooth portabilă, rezistentă la apă, autonomie 20h.",
+    "rating": 4.8
+  },
+  {
+    "id": 39,
+    "nume": "Televizor LG OLED55C1",
+    "categorie": "Televizoare",
+    "pret": 5999.99,
+    "stoc": 3,
+    "imagine": "https://cdn-ultra.esempla.com/storage/webp/8b62f279-bda5-47bf-a033-b48091f5019b.webp",
+    "descriere": "Televizor OLED 55'', 4K Ultra HD, Smart TV, Dolby Vision.",
+    "rating": 4.9
+  },
+  {
+    "id": 40,
+    "nume": "Căști wireless Apple AirPods Max",
+    "categorie": "Căști",
+    "pret": 2999.99,
+    "stoc": 5,
+    "imagine": "https://e.cdnmoldcell.md/products/6011328/Apple-AirPods-MAX-Space-Gray.png",
+    "descriere": "Căști wireless over-ear, noise cancelling, sunet Hi-Fi.",
+    "rating": 4.8
+  },
+  {
+    "id": 41,
+    "nume": "Căști wireless Sony WH-CH710N",
+    "categorie": "Căști",
+    "pret": 799.99,
+    "stoc": 10,
+    "imagine": "https://www.sony.ro/image/9b78fb3416b7ff8f0e7f2e773f5ce3d7?fmt=png-alpha&wid=900&hei=800",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 35h.",
+    "rating": 4.6
+  },
+  {
+    "id": 42,
+    "nume": "Boxă portabilă Anker Soundcore Motion+",
+    "categorie": "Boxe",
+    "pret": 599.99,
+    "stoc": 15,
+    "imagine": "https://neocomputer.md/image/cache/catalog/products/ui-products/293c9672-4d7f-11ea-b816-00155d1de702/93bcc60f-80c3-4515-afba-6ccc34c41c9e-800x800.png",
+    "descriere": "Boxă Bluetooth portabilă, sunet Hi-Res, autonomie 12h.",
+    "rating": 4.7
+  },
+  {
+    "id": 43,
+    "nume": "Televizor Samsung Crystal UHD 43AU8000",
+    "categorie": "Televizoare",
+    "pret": 2499.99,
+    "stoc": 8,
+    "imagine": "https://images.samsung.com/is/image/samsung/p6pim/pk/ua43au8000uxmm/gallery/pk-crystal-uhd-au8000-ua43au8000uxmm-537118344?$684_547_PNG$",
+    "descriere": "Televizor LED 43'', 4K Ultra HD, Smart TV, HDR10+.",
+    "rating": 4.8
+  },
+  {
+    "id": 44,
+    "nume": "Căști gaming Logitech G Pro X",
+    "categorie": "Căști",
+    "pret": 699.99,
+    "stoc": 12,
+    "imagine": "https://xstore.md/images/product/2023/07/xstore.md-C%C4%83%C8%99ti-Gaming-Logitech-G-Pro-X-(2).png",
+    "descriere": "Căști gaming cu microfon detașabil, sunet surround 7.1.",
+    "rating": 4.8
+  },
+  {
+    "id": 45,
+    "nume": "Boxe Edifier R1700BT",
+    "categorie": "Boxe",
+    "pret": 899.99,
+    "stoc": 10,
+    "imagine": "https://cdn1.avstore.ro/qube/get/90w400h400/836217d260a996ecbd574ec685a8cc14",
+    "descriere": "Boxe active 2.0, Bluetooth, telecomandă, 66W RMS.",
+    "rating": 4.7
+  },
+  {
+    "id": 46,
+    "nume": "Televizor Sony KD-55X80J",
+    "categorie": "Televizoare",
+    "pret": 3499.99,
+    "stoc": 6,
+    "imagine": "https://www.sony.ca/image/b81ae7e6008878fcb1974209445c5f94?fmt=png-alpha&wid=676&hei=400",
+    "descriere": "Televizor LED 55'', 4K Ultra HD, Smart TV, Dolby Vision.",
+    "rating": 4.8
+  },
+  {
+    "id": 47,
+    "nume": "Căști wireless JBL Live 660NC",
+    "categorie": "Căști",
+    "pret": 999.99,
+    "stoc": 14,
+    "imagine": "https://xstore.md/images/product/2022/03/JBL-LIVE-660NC,-Black-1.png",
+    "descriere": "Căști wireless cu noise cancelling, autonomie 50h.",
+    "rating": 4.7
+  },
+  {
+    "id": 48,
+    "nume": "Boxă portabilă Marshall Kilburn II",
+    "categorie": "Boxe",
+    "pret": 1499.99,
+    "stoc": 5,
+    "imagine": "https://neocomputer.md/image/cache/catalog/products/ui-products/293c9672-4d7f-11ea-b816-00155d1de702/a744554c-2e70-4192-a4cc-e75a9478ed75-800x800.png",
+    "descriere": "Boxă Bluetooth portabilă, sunet puternic, autonomie 20h.",
+    "rating": 4.8
+  },
+  {
+    "id": 49,
+    "nume": "Televizor LG NanoCell 55NANO80",
+    "categorie": "Televizoare",
+    "pret": 3999.99,
+    "stoc": 4,
+    "imagine": "https://ultrahd.su/wp-content/uploads/2020/05/00-ultrahd.su-nano80.jpg",
+    "descriere": "Televizor NanoCell 55'', 4K Ultra HD, Smart TV, HDR.",
+    "rating": 4.9
+  },
+  {
+    "id": 50,
+    "nume": "Căști wireless Bose Sport Earbuds",
+    "categorie": "Căști",
+    "pret": 799.99,
+    "stoc": 20,
+    "imagine": "https://cdn1.avstore.ro/qube/get/90w600h600/1de01829996776c6afa55d199d279399",
+    "descriere": "Căști wireless pentru sport, rezistente la apă, autonomie 5h.",
+    "rating": 4.6
+  }
+]

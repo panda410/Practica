@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Cont</title>
+    <link rel="stylesheet" href="Cont.css">
+    <script src="Cont.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <button id="backButton" class="btn-back">Înapoi</button>
+
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img id="profilePicture" src="default-avatar.png" alt="Profile Picture" class="profile-pic">
+
+                <button id="changePictureButton" class="btn">Schimbă poza</button>
+                <input type="file" id="uploadPicture" class="hidden" accept="image/*">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" class="active">Pagina de Cont</a></li>
+                    <li><a href="#" id="logoutButton">Deconectare</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+
+        <main class="main-content">
+            <h2>Detalii Cont</h2>
+            <form id="accountForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="password">Parola</label>
+                    <input type="password" id="password" name="password" disabled>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="editButton" class="btn">Editează</button>
+                    <button type="submit" id="saveButton" class="btn" disabled>Salvează</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

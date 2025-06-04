@@ -1,0 +1,467 @@
+nav {
+  background-color: rgba(35, 41, 70, 0.97);
+  backdrop-filter: blur(4px);
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 20px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav .logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav .logo-img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(236, 72, 153, 1);
+}
+
+nav .logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #e2e8f0;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #38bdf8;
+  color: #1e293b;
+}
+
+nav a:hover {
+  color: #4863ec;
+}
+
+header {
+  background: linear-gradient(145deg, #2b0a3d, #4c1d95);
+  color: white;
+}
+
+button {
+  background: linear-gradient(to right, #ec4899, #9333ea);
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #9333ea, #ec4899);
+}
+footer h3 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.125rem;
+}
+
+footer .social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #1e293b;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer .social-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+}
+
+footer .social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  background: linear-gradient(45deg, #1e293b, #334155, #64748b, #94a3b8);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section {
+  background: rgba(35, 41, 70, 0.9);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+#modalCheckout .modal-content {
+  background: linear-gradient(90deg, #232946 60%, #38bdf8 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  padding: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.5);
+}
+
+.card-img-top {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #1e293b;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-primary {
+  color: #38bdf8 !important;
+}
+
+.row.g-4 .col-md-4 {
+  text-align: center;
+}
+
+.row.g-4 .col-md-4 i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .text-warning {
+  font-size: 1.1rem;
+}
+
+.card .text-danger {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-primary.adauga-cos {
+  background-color: #38bdf8;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary.adauga-cos:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.img-thumbnail {
+  border: none;
+  object-fit: cover;
+}
+
+.btn-warning.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  color: #000;
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-warning.btn-sm:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.btn-danger.btn-sm i {
+  font-size: 1rem;
+}
+
+#formCheckout .btn-outline-info,
+#formCheckout .btn-outline-warning,
+#formCheckout .btn-outline-success {
+  border-width: 2px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#formCheckout .btn-outline-info.active,
+#formCheckout .btn-outline-warning.active,
+#formCheckout .btn-outline-success.active {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+#formCheckout .btn-outline-warning.active {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+#formCheckout .btn-outline-success.active {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+#formCheckout input[type="text"] {
+  background-color: #1e293b;
+  color: #f8f9fa;
+  border: 1px solid #0d6efd;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#formCheckout input[type="text"]::placeholder {
+  color: #6c757d;
+  font-weight: normal;
+}
+
+#modalCheckout .form-label {
+  color: #ffe066;
+  font-weight: 500;
+}
+
+#modalCheckout .form-control,
+#modalCheckout .form-control:focus {
+  background: #232946;
+  color: #ffe066;
+  border: 1.5px solid #38bdf8;
+  border-radius: 10px;
+}
+
+#modalCheckout .btn-gradient {
+  background: linear-gradient(90deg, #38bdf8 0%, #ffe066 100%);
+  color: #232946;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+}
+
+#modalCheckout .btn-gradient:hover {
+  background: linear-gradient(90deg, #ffe066 0%, #38bdf8 100%);
+  color: #232946;
+}
+
+#cardTypeGroup .btn-check:checked + .btn {
+  background: linear-gradient(90deg, #38bdf8 0%, #ffe066 100%);
+  color: #232946;
+  border-color: #38bdf8;
+  font-weight: bold;
+  box-shadow: 0 2px 8px #38bdf866;
+}
+
+.badge-custom {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(90deg, #ff6a00, #ff0000);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.ribbon {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background: linear-gradient(90deg, #ff6a00, #ff0000);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 15px;
+  transform: rotate(-45deg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.ribbon-hot {
+  background: linear-gradient(90deg, #ff9800, #ff5722);
+}
+
+.ribbon-extra-hot {
+  background: linear-gradient(90deg, #ff0000, #d50000);
+}
+
+.ribbon-impresionant {
+  background: linear-gradient(90deg, #4caf50, #388e3c);
+}
+
+.ribbon-special {
+  background: linear-gradient(90deg, #4caf50, #388e3c);
+}
+
+.badge-circle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ff6a00, #ff0000);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.badge-wow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #ff6a00, #ff0000);
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.5);
+  animation: spin-scale 3s infinite ease-in-out, glow 2s infinite alternate;
+  z-index: 10;
+}
+
+.badge-hot {
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 87, 34, 0.5);
+}
+
+.badge-extra-hot {
+  background: linear-gradient(135deg, #ff0000, #d50000);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 10px rgba(213, 0, 0, 0.5);
+}
+
+.badge-special {
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 10px rgba(56, 142, 60, 0.5);
+}
+
+@keyframes glow {
+  from {
+    transform: scale(1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  to {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 0, 0, 0.7);
+  }
+}
+
+@keyframes spin-scale {
+  0% {
+    transform: rotate(0deg) scale(1) translate(0, 0);
+  }
+  25% {
+    transform: rotate(10deg) scale(1.1) translate(5px, -5px);
+  }
+  50% {
+    transform: rotate(-10deg) scale(1.05) translate(-5px, 5px);
+  }
+  75% {
+    transform: rotate(5deg) scale(1.1) translate(5px, 5px);
+  }
+  100% {
+    transform: rotate(0deg) scale(1) translate(0, 0);
+  }
+}
+
+.container {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInScale 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

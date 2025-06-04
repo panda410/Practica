@@ -1,0 +1,192 @@
+header {
+  background: linear-gradient(90deg, #232946 60%, #38bdf8 100%);
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+  border-radius: 0 0 2.5rem 2.5rem;
+  box-shadow: 0 8px 32px rgba(56, 189, 248, 0.2);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ffe066;
+  text-shadow: 0 2px 12px rgba(35, 41, 70, 0.6);
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header a.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+header a.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(56, 189, 248, 0.7);
+}
+
+.stylish-header .badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stylish-header .badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+}
+
+.stylish-header img {
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stylish-header img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.5);
+}
+
+footer {
+  background: linear-gradient(to right, #4c1d95, #1e3a8a, #2563eb);
+  color: #f3f4f6;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.125rem;
+}
+
+footer .social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #1e293b;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer .social-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+}
+
+footer .social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+section.recenzii {
+  background: linear-gradient(135deg, #232946, #38bdf8);
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+section.recenzii h2 {
+  color: #ffe066;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  border: 3px solid #38bdf8;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.card img:hover {
+  border-color: #ffe066;
+  transform: scale(1.1);
+}
+
+.card-title {
+  color: #ffe066;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.card .text-warning i {
+  font-size: 1.2rem;
+}
+
+.card .text-warning i:not(:last-child) {
+  margin-right: 0.2rem;
+}
+
+#review-form-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#review-form .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid #38bdf8;
+}
+
+#review-form .form-control:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: #ffe066;
+  box-shadow: 0 0 5px #ffe066;
+}
+
+#review-form .btn-success {
+  background-color: #38bdf8;
+  border: none;
+}
+
+#review-form .btn-success:hover {
+  background-color: #ffe066;
+  color: #232946;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body class="bg-gradient-to-br from-purple-900 to-blue-900 min-h-screen flex items-center justify-center">
+    <div class="bg-gradient-to-br from-purple-700 to-purple-900 rounded-lg shadow-lg flex max-w-4xl w-full">
+
+        <div class="hidden md:flex flex-col justify-center items-center bg-cover bg-center w-1/2 rounded-l-lg"
+            style="background-image: url('ChatGPT\ Image\ 14\ mai\ 2025\,\ 10_19_41.png');">
+
+        </div>
+
+        <div class="w-full md:w-1/2 p-8 md:p-12 text-white">
+            <h2 class="text-3xl font-bold mb-6 text-center">Login</h2>
+            <form action="#" method="POST">
+
+                <div class="mb-4">
+                    <label for="username" class="block text-sm font-medium mb-2">Username</label>
+                    <input type="text" id="username" name="username" placeholder=" username"
+                        class="w-full px-4 py-2 rounded-lg bg-purple-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+                </div>
+
+                <div class="mb-4 relative">
+                    <label for="password" class="block text-sm font-medium mb-2">Password</label>
+                    <input type="password" id="password" name="password" placeholder=" password"
+                        class="w-full px-4 py-2 rounded-lg bg-purple-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    <button type="button" id="togglePassword"
+                        class="absolute right-3 top-3 text-gray-400 hover:text-white">
+
+                        👁️
+                    </button>
+                </div>
+                <div class="flex items-center justify-between mb-4">
+                    <label class="flex items-center">
+                        <input type="checkbox"
+                            class="form-checkbox text-purple-500 bg-purple-800 border-purple-700 rounded focus:ring-0">
+                        <span class="ml-2 text-sm">Tinema Minte </span>
+                    </label>
+                    <a href="#" class="text-sm text-purple-300 hover:underline">Forgot password?</a>
+                </div>
+
+                <div class="mb-4">
+                    <label class="flex items-center">
+                        <input type="checkbox" name="terms"
+                            class="form-checkbox text-purple-500 bg-purple-800 border-purple-700 rounded focus:ring-0">
+                        <span class="ml-2 text-sm">Termenii si conditie </span>
+                    </label>
+                </div>
+
+                <button type="submit"
+                    class="w-full py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-bold hover:from-purple-600 hover:to-pink-600">Login</button>
+            </form>
+
+            <p class="text-center text-sm mt-4">
+                Nu am cont? <a href="CreareCont.html" class="text-purple-300 hover:underline">Create account</a>
+            </p>
+
+            <div class="flex items-center justify-center my-6">
+                <span class="border-t border-purple-700 flex-grow"></span>
+                <span class="px-4 text-sm text-purple-300">OR</span>
+                <span class="border-t border-purple-700 flex-grow"></span>
+            </div>
+
+            <div class="flex justify-center space-x-4">
+
+                <a href="https://www.google.com" target="_blank"
+                    class="bg-white p-2 rounded-full shadow-md hover:shadow-lg">
+                    <img src="https://img.icons8.com/color/512/google-logo.png" alt="Google" class="w-6 h-6">
+                </a>
+
+                <a href="https://www.instagram.com" target="_blank"
+                    class="bg-white p-2 rounded-full shadow-md hover:shadow-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        alt="Instagram" class="w-6 h-6">
+                </a>
+
+                <a href="https://www.twitter.com" target="_blank"
+                    class="bg-white p-2 rounded-full shadow-md hover:shadow-lg">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174876.png" alt="Twitter" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="Login.js" defer></script>
+</body>
+
+</html>

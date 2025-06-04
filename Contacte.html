@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte | Galben Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Produse.css">
+    <link rel="stylesheet" href="Contacte.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg stylish-navbar shadow-sm"
+        style="background:rgba(35,41,70,0.97);backdrop-filter:blur(4px);border-radius:0 0 1.5rem 1.5rem;">
+        <div class="container py-2 d-flex align-items-center justify-content-between flex-wrap">
+            <a class="navbar-brand d-flex align-items-center gap-3 py-1" href="Acasa.html" style="font-size:1.6rem;">
+                <img src="image-removebg-preview (4).png" alt="Logo" class="logo-img"
+                    style="width:56px;filter:drop-shadow(0 2px 8px #38bdf8cc);">
+                <span class="fw-bold" style="color:#38bdf8;letter-spacing:1.5px;">Galben Shop</span>
+            </a>
+            <button class="navbar-toggler bg-light ms-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Deschide meniul">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse position-relative flex-grow-0" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Acasa.html"><i
+                                class="bi bi-house-door"></i> Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Produse.html"><i
+                                class="bi bi-box-seam"></i> Produse</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Categorii.html"><i
+                                class="bi bi-grid"></i> Categorii</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Promotii.html"><i
+                                class="bi bi-percent"></i> Promoții</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Despre.html"><i
+                                class="bi bi-info-circle"></i> Despre</a></li>
+                    <li class="nav-item"><a class="nav-link active px-3 rounded-pill" href="Contacte.html"><i
+                                class="bi bi-envelope"></i> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="Cont.html"><i
+                                class="bi bi-person-circle fs-5"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-dark py-5 contact-section">
+        <div class="container">
+            <h2 class="text-center text-info mb-4">Contactează-ne</h2>
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <form id="contactForm" class="p-4 rounded shadow"
+                        style="background-color: #232946; box-shadow: 0 4px 16px rgba(35, 41, 70, 0.5);">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-light">Nume</label>
+                            <input type="text" id="name" class="form-control" placeholder="Introdu numele"
+                                style="background-color: #1e293b; color: #38bdf8; border: 1px solid #38bdf8;">
+                            <div class="invalid-feedback">Te rugăm să introduci un nume.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-light">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Introdu email-ul"
+                                style="background-color: #1e293b; color: #38bdf8; border: 1px solid #38bdf8;">
+                            <div class="invalid-feedback">Te rugăm să introduci un email valid.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-light">Mesaj</label>
+                            <textarea id="message" rows="4" class="form-control" placeholder="Scrie mesajul"
+                                style="background-color: #1e293b; color: #38bdf8; border: 1px solid #38bdf8;"></textarea>
+                            <div class="invalid-feedback">Te rugăm să introduci un mesaj.</div>
+                        </div>
+                        <button type="submit" class="btn w-100"
+                            style="background-color: #38bdf8; color: #232946; font-weight: bold; border: none;">Trimite
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
+                    <p class="text-light mb-3"><i class="bi bi-telephone-fill text-info"></i> Telefon:
+                        <span style="color: #ffe066;">+373 673 79 491</span>
+                    </p>
+                    <p class="text-light mb-3"><i class="bi bi-envelope-fill text-info"></i> Email:
+                        <span style="color: #ffe066;">contact@galbenshop.com</span>
+                    </p>
+                    <p class="text-light"><i class="bi bi-geo-alt-fill text-info"></i> Adresă:
+                        <span style="color: #ffe066;">Strada Sarmisegetuza </span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="p-4 rounded shadow text-center"
+                        style="background-color: #1e293b; box-shadow: 0 4px 16px rgba(35, 41, 70, 0.5);">
+                        <h3 class="text-info mb-3">Abonează-te la Newsletter</h3>
+                        <p class="text-light mb-4">Fii la curent cu cele mai noi oferte și produse!</p>
+                        <form id="newsletterForm" class="d-flex flex-column flex-md-row justify-content-center">
+                            <input type="email" id="newsletterEmail" class="form-control me-md-2 mb-3 mb-md-0"
+                                placeholder="Introdu email-ul tău"
+                                style="max-width: 400px; background-color: #232946; color: #38bdf8; border: 1px solid #38bdf8;">
+                            <button type="submit" class="btn"
+                                style="background-color: #38bdf8; color: #232946; font-weight: bold; border: none;">Abonează-te
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="rounded shadow overflow-hidden" style="box-shadow: 0 4px 16px rgba(35, 41, 70, 0.5);">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.123456789!2d26.102538315316!3d44.426767979102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4d12345678%3A0x123456789abcdef!2sStrada%20Exemplu%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1621234567890!5m2!1sen!2sro"
+                            width="100%" height="400" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gradient-to-r from-purple-900 via-blue-800 to-indigo-900 text-white py-5 mt-5">
+        <div class="container text-center">
+            <h4 class="mb-3">Urmărește-ne pe rețelele sociale</h4>
+            <div class="d-flex justify-content-center gap-3 mb-3">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png"
+                        alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        alt="Instagram">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1200px-Logo_of_Twitter.svg.png"
+                        alt="Twitter">
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 Galben Shop. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="Contacte.js"></script>
+</body>
+
+</html>
